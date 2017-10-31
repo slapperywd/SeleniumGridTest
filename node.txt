@@ -1,0 +1,5 @@
+java -Dwebdriver.chrome.driver="D:\Siarhei_Mahlysh_workspace\seleniumstandalone\chromedriver.exe" -jar selenium-server-standalone-3.6.0.jar -role node -hub http://localhost:4444/grid/register
+
+java -jar selenium-server-standalone-3.6.0.jar -role node -hub http://localhost:4444/grid/register
+
+java -jar selenium-server-standalone-3.6.0.jar -role webdriver -hub http://localhost:4444/grid/register
